@@ -23,18 +23,66 @@
         <!-- meta http-equiv="content-type" content="text/html; charset=UTF-8" -->
         <!-- Already specified in the charset above-->
 
+
+        <style>
+            * {
+                box-sizing: border-box;
+                font-size:1.5vw;
+                
+            }
+
+            div {border: thick groove black}
+
+            header {
+                border: 10px groove grey;
+                padding: 15px;
+                font-size: 0.25vw;
+
+            }
+
+            .menu {
+                width: 25%;
+                float: 15px;
+                padding: 15px;
+                border: 10px groove grey;
+            }
+            .main {
+                width: 50%;
+                float: 15px;
+                padding: 15px;
+                border: 10px groove grey;
+            }
+            .aside {
+                width: 25%;
+                float: 15px;
+                padding: 15px;
+                border: 10px groove grey;
+            }
+            .footer {
+                padding: 15px;
+                border: 10px groove grey;
+            }
+            
+        </style>
+
         <noscript>Running JavaScript is not necessary in the HTML Page ... FYI: your Feature to execute scripts is turned off</noscript>
 
     </head>
     
     <body>
-        <header>Flexbox</header>
-        <nav></nav>
-        <aside></aside>
-        <main></main>
-        <section></section>
-        <article></article>
-        <footer></footer>
+        <div>
+            <header class="header"> 
+                <h1 style="font-size:5vw">This is so incredibly awesome</h1>
+                <a>And Styles in the  HEAD</a>
+            </header>
+        </div>
+        <div><nav class="menu">Navigation</nav></div>
+        <div><main class="main">Main</main></div>
+        <div><aside class="aside">Aside</aside></div>
+
+        <div><section>Section</section></div>
+        <div><article>Article</article></div>
+        <div><footer>Footer</footer></div>
     </body>
 
     <footer>
