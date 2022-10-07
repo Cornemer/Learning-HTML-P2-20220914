@@ -43,6 +43,13 @@
             padding: 10px;
             margin: 10px;
            }
+           aside {
+            background-color: grey;
+            width: 100%;
+            border: thick groove grey;
+            padding: 10px;
+            margin: 10px;
+           }
            
         </style>
 
@@ -50,7 +57,7 @@
 
     </head>
     <body>
-        <h1><center><div><header style="background-color:grey">Learning HTML</header></div></center></h1>
+        <h1><center><aside><header style="background-color:grey">Learning HTML</header></aside></center></h1>
         <nav>
                 <header style="font-size:2.25vw">Navigation</header>
                 <section>
@@ -67,17 +74,30 @@
                         </ul>
                 </section>
         </nav>
-        <aside></aside>
         <main></main>
         <section></section>
         <article></article>
-        <footer><br><!-- codes one space, like pressing enter -->
-            <!-- <img> is self closing-->
-            <blockquote cite="https://m.media-amazon.com/images/I/81Q7HZYO1rL._AC_SL1500_.jpg">
-                <!-- Date Accessed 20220928-->
-            </blockquote>
-            <img src="https://m.media-amazon.com/images/I/81Q7HZYO1rL._AC_SL1500_.jpg" alt title="I LOVE The Beatles!" style="width:25%;height:auto ">
-            <br><br><br></footer>
+            
+                <p><footer><br><!-- codes one space, like pressing enter -->
+                    <!-- <img> is self closing-->
+                    <blockquote cite="https://m.media-amazon.com/images/I/81Q7HZYO1rL._AC_SL1500_.jpg">
+                        <!-- Date Accessed 20220928-->
+                    </blockquote>
+                    <img src="https://m.media-amazon.com/images/I/81Q7HZYO1rL._AC_SL1500_.jpg" alt title="I LOVE The Beatles!" style="width:75%;height:auto ">
+                    <br><br><br>
+        
+                    <br><!-- codes one space, like pressing enter -->
+                <!-- <img> is self closing-->
+                <blockquote cite="https://1000logos.net/wp-content/uploads/2017/06/Emblem-Beatles.jpg">
+                    <!-- Date Accessed 20220928-->
+                </blockquote>
+                <img src="https://1000logos.net/wp-content/uploads/2017/06/Emblem-Beatles.jpg" alt title="I LOVE The Beatles!" style="width:75%;height:auto ">
+                <br><br><br></p>
+              </div>
+            </div>
+
+        <button onclick="alert('Andrew:   Can we get much Higher!')">What does Andrew have to say?</button>
+        </footer>
     </body>
 
     <footer>
@@ -89,35 +109,45 @@
         <p>&copy Connor Cunningham, powered by Cornemer in GitHub</p>
     </footer>
 
-    <section>
-                
-        <br><!-- codes one space, like pressing enter -->
-        <!-- <img> is self closing-->
-        <blockquote cite="https://1000logos.net/wp-content/uploads/2017/06/Emblem-Beatles.jpg">
-            <!-- Date Accessed 20220928-->
-        </blockquote>
-        <img src="https://1000logos.net/wp-content/uploads/2017/06/Emblem-Beatles.jpg" alt title="I LOVE The Beatles!" style="width:25%;height:auto ">
-        <br><br><br>
-
-
-        <button onclick="alert('Andrew:   Can we get much Higher!')">What does Andrew have to say</button>
-        
-    </section>
     <style>
-
 
         body {background-image:url('http://cdn.discordapp.com/attachments/1026970150576074773/1027625126306533457/IMG_6317.jpg');
                 background-repeat:repeat;
-                background-size:50% 50%;}
+                background-size:50% 50%;
+                opacity: 1.0;
+            }
                 
-                div{border:groove thick #820303 ; background-color:#de7c7c ;width: 500px;}
-                img {border: groove thick #820303}
+                div{border:groove thick grey; background-color:grey ;width: 500px;}
+                img {border: groove thick grey}
                 
         
             </style>
+            
+            <style>
+            /* unvisited link */
+a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: #fffefd;
+}
+
+/* mouse over link */
+a:hover {
+  color: #222222;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+            </style>
+
+
+
 </html>
 
 
-   
-  
    
